@@ -2,7 +2,6 @@ import tkinter as tk
 
 class Finestra:
 	def __init__(self):
-		#ho dovuto utilizzare questa forma perchè senno mi creava 2 finestre differenti
 		self.finestra = tk.Tk()
 		self.finestra.geometry("400x300")
 		self.finestra.title("Esempio Menu Tkinter")
